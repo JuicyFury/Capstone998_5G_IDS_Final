@@ -1,0 +1,15 @@
+[theme]
+base = "dark"
+primaryColor = "#00D1B2"            # Teal accent (matches cyber aesthetic)
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1B1E27"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8501
+enableCORS = false

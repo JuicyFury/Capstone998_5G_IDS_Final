@@ -1,0 +1,19 @@
+# Ignore Python bytecode files and virtual environments
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Ignore model files
+models/
+
+# Ignore CSV logs
+runs/

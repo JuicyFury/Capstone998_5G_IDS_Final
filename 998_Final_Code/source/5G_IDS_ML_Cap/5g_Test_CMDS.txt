@@ -1,0 +1,18 @@
+To test Commands
+
+uvicorn service.api:app --reload --port 8000 (Start FastAPI app)
+http://127.0.0.1:8000/docs (FastAPI GUI view)
+python -u .\scripts\generate_mock.py --n 5 --attack-rate 0.5 --debug (generate random flow to identify threats)
+python scripts/train_toy_model.py (Separate model testing)
+http://127.0.0.1:8000/metrics_simple # for metrics
+
+Test data in docs
+{
+  "pkt_count": 1500,
+  "byte_count": 4000,
+  "src_ip": "192.168.1.10",
+  "dst_ip": "10.0.0.99"
+}
+
+
+{ "pkt_count": 1500, "byte_count": 4000, "src_ip": "192.168.1.10", "dst_ip": "10.0.0.99" }
