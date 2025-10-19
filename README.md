@@ -1,13 +1,13 @@
 # CSIT998 – 5G Intrusion Detection System (IDS)
 
-## 📘 Overview
+## Overview
 This project, developed as part of the University of Wollongong’s CSIT998 Professional Capstone, implements a Machine Learning–based Intrusion Detection System for 5G network traffic simulated using NS-3.
 
 The solution integrates network traffic generation, feature extraction, and classification modules to detect potential intrusions efficiently.
 
 ---
 
-## 🧠 Project Components
+## Project Components
 | Folder | Description |
 |---------|-------------|
 | `source/` | Python codebase for NS-3 integration, ML training, and IDS inference |
@@ -16,7 +16,7 @@ The solution integrates network traffic generation, feature extraction, and clas
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Python 3.10**
 - **NS-3 Network Simulator**
 - **LightGBM, SVM, and Scikit-learn**
@@ -30,7 +30,7 @@ Due to submission limits, the complete code and resources are hosted in this rep
 
 ---
 
-## 👥 Team Members
+## Team Members
 | Name | Student Number | Role |
 |------|----------------|------|
 | Gaurav Adarsh Santosh | 7032663 | Software Engineer |
@@ -44,5 +44,5 @@ Due to submission limits, the complete code and resources are hosted in this rep
 
 ---
 
-## 📄 License
+##  License
 This repository is for academic purposes only under UOW CSIT998 submission requirements.
